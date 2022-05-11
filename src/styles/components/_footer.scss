@@ -1,0 +1,56 @@
+.socialNetwork {
+    display: block;
+    background-color: $color-1;
+    height:160px;
+   
+    ul {
+      display: flex;
+
+      justify-content: center;
+     text-align: center;
+
+      li {
+        font-size: 1.5rem;
+        background: $color-5;
+        color: $color-1;
+        border-radius: 50%;
+        padding: .5rem 0.8rem;
+        transition: .3s;
+        cursor: pointer;
+        margin-right:20px;
+         margin-top:20px;
+   
+      
+
+        a:visited {
+          color: $color-1;
+        }
+        &:nth-child(1){
+          padding: .5rem .85rem
+        }
+        &:nth-child(4){
+          padding: .5rem .75rem
+        }
+        &:hover {
+          background: $color-4;
+        }
+      }
+    }
+    .signature {
+        color:$color-2;
+        display:flex;
+        margin-top: 2rem;
+        justify-content:center;
+        letter-spacing: 0.1rem;
+        font-size: 1.4rem;
+   
+
+      a, a:visited {
+        color: $color-5;
+
+        &:hover {
+          color: $color-4;
+        }
+      }
+    }
+  }
