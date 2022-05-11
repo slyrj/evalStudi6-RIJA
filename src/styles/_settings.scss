@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+
+$font-1: 'Nova Round', cursive;
+$font-2: 'Dosis', sans-serif;
+$font-3: 'Josefin Sans', serif;
+
+$color-1: #47555E ;
+$color-2: #fff;
+$color-3: #63A4E9;
+$color-4: #4FEDD2;
+$color-5: #8FB4CB;
+$color-6: #2B4050;
+$black: #333;
+
+$borderRadius: 1px;
+$shadow: 0 0px 1px #333;
+$minHeight: 30vh;
+
+
+@mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
