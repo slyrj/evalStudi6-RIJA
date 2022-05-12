@@ -1,0 +1,235 @@
+  
+.contactMe {
+  
+    position: relative;
+    width: 100%;
+    min-height: 860px;
+
+    padding: 40px 10px;
+    background-color: $color-1;
+    
+  }
+    
+  .box {
+    position: relative;
+    Map {
+      max-height: 45%;
+      max-width: 32%;
+    } 
+   
+  }
+  
+  .form {
+    grid-area: form;
+  }
+  
+  .info {
+    grid-area: info;
+  }
+  
+  .map {
+    grid-area: map;
+    background: url('../../media/app.png') no-repeat center/cover;
+ 
+  }
+  
+  .contact {
+   padding: 40px;
+   background: #fff;
+   box-shadow: 0 5px 35px rgba(0, 0, 0, 0.05);
+  }
+  
+  .box {
+    position: relative;
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: 
+    "form info"
+    "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .formBox {
+    position: relative;
+    width: 100%;
+  }
+  
+  .formBox .row50 {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .inputBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+  }
+  
+  .formBox .row100 .inputBox {
+    width: 100% ;
+  }
+  
+  .inputBox span {
+    color:$color-6;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .inputBox input {
+  
+    padding: 10px;
+    font-size: 1.2em;
+    outline: none;
+    border: 0.6px solid #333;
+    color: black;
+  }
+
+.inputBox input::placeholder,
+.inputBox textarea::placeholder
+{
+  font-family:$font-3;
+  color: #ccc;
+}
+
+ .row100 .inputBox  textarea {
+    color: black;
+    padding: 10px;
+    font-size: 1.2em;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    min-height: 220px;
+    margin-bottom: 10px;
+  }
+
+  .inputBox input[type="submit"] {
+    background: $color-1;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+  }
+  
+  
+   .inputBox .send:hover {
+    background: $color-6;
+    color: $color-4;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+  }
+  
+  
+  .inputBox ::placeholder {
+    color: #999;
+  }
+  
+  /*Information*/
+  
+  .info {
+    background: $color-1;
+  }
+  
+  .info h3 {
+    color : white;
+  }
+  
+  div span .fab {
+    color:black;
+  }
+  .info .infoBox div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .info .infoBox div span {
+    min-width: 10px;
+    height: 10px;
+    color:#fff;
+    background: $color-2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .5em;
+    border-radius:10%;
+    margin-right: 15px;
+  }
+  
+  .info .infoBox div p {
+    color: #fff;
+    font-size: 1.1em;
+  }
+  
+  .info .infoBox div a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .sci {
+    margin-top: 40px;
+    display: flex;
+  }
+  
+  .sci li {
+    list-style: none;
+    margin-right: 15px;
+  }
+  
+  .sci li a {
+   color:#fff;
+   font-size: 2em;
+   color:#ccc;
+  }
+  
+  .sci li a:hover {
+    color:#fff;
+  }
+
+@media (max-width: 991px) {
+
+body{
+  display:flex;
+        flex-direction: column;
+
+
+    .contactMe {
+           padding: 20px; 
+    }
+  
+    .box {
+     
+        display:flex;
+        flex-direction: column;
+     }
+  
+    .map {
+        min-height: 300px;
+    }
+  
+    .formBox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+  
+    .inputBox {
+        width: 100%;
+    }
+  
+    .contact {
+        padding: 30px;
+    }
+  
+  }
+  
+}
