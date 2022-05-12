@@ -1,0 +1,91 @@
+.pres{
+    background-color:$color-1;
+    min-height: 860px;
+
+    .pres__card { padding: 10px ;
+
+        .meta {
+            text-align: center;
+            .pres__photo {
+                img {
+                    width:250px;
+                    height:150px;
+                  
+                }
+            }
+        }
+     .description {
+        padding: 1rem;
+        background: $color-1;
+        position: relative;
+        z-index: 1;
+        color:$color-2;
+        text-align: center; 
+
+         h1{
+            color:$color-5;
+            font-family: $font-1, $font-3;
+            line-height: 1;
+            margin: 0;
+            font-size: 1.6rem;
+        text-align:center;
+         }
+         h3 {
+            font-family: $font-1, $font-3;
+            font-size: 1.5rem;
+            font-weight: 300;
+            text-transform: uppercase;
+            color: $color-4;
+            margin-top: 5px;
+         }
+         p {
+
+         }
+
+         .readMore {
+            text-align: right;
+            color:$color-4;
+         }
+     }   
+    }
+}  
+
+@media screen and (min-width: 650px) {
+   .pres {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    max-width : 100%;
+ 
+       .pres__card {
+          padding:10px;
+        //   margin-left:110px;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        .meta {
+            text-align: center;
+            .pres__photo {
+                img {
+                    width:350px;
+                    height:250px;
+                  
+                }
+            }
+        }
+
+        .description {
+            text-align: center;
+            h1 {
+                font-size: 1.8rem;
+            }
+            p {display:flexbox;
+                overflow:wrap;
+                width:350px;
+            }
+        }
+       }
+
+   }
+}
