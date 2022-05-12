@@ -1,0 +1,49 @@
+main {
+    background-color:$color-1;
+    min-height: 480px;
+    .row {
+
+        .col-md-2{
+            margin-top:20px;
+            
+            .btn {
+              color:#4FEDD2;
+              background-color: #8FB4CB;
+              margin-left:35px;
+              margin-top:20px;
+              width:140px;
+              }
+          }
+
+          .col-md-10 {
+
+              .row {
+             
+                  .col-md-4 {
+                 
+                      .card {
+                 
+                        text-align: center;
+                          .card-img-top{
+                            margin-top:30px;
+                            margin-bottom:30px;
+                            width:350px;
+                            height:250px;
+                          object-fit: contain;
+                          }
+
+                       .card-text , p {
+                         color:#fff;
+                         text-align: center;
+                          }  
+                      }
+                  }
+              }
+          }
+    }
+  }
+
+
+
+
+ 
