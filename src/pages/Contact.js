@@ -32,6 +32,7 @@ const Contact = () => {
                         </div>
                    </div>
                </div>
+               <div className="contact img"></div>  
             </div> 
         </div>
         <Footer />

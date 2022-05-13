@@ -1,9 +1,6 @@
 
 
-// .pres {
-//     background:$color-1;
-//   }
-  
+
   .contactMe {
   
     position: relative;
@@ -14,19 +11,7 @@
     background-color: $color-1;
     
   }
-  
-  // .contactMe .title {
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: ceter;
-  //   font-size: 2em;
-  // }
-  
-  // .contactMe .title h2 {
-  //    color:#fff;
-  //    font-weight: 500;
-  // }
-  
+
   .box {
     position: relative;
     Map {
@@ -44,7 +29,7 @@
     grid-area: info;
   }
   
-  .map {
+  .img {
     grid-area: map;
     background: url('../../media/app.png') no-repeat center/cover;
  
@@ -68,12 +53,7 @@
     margin-top: 20px;
   }
   
-  // .contact h3 {
-  //   color:greenyellow;
-  //   font-weight: 500;
-  //   font-size: 1.4rem;
-  //   margin-bottom: 10px;
-  // }
+
   /* formulaire */
   
   .formBox {
@@ -226,17 +206,10 @@
   
 
 
-  .map {
+  .img {
     background: url('../../media/contact.webp') no-repeat center/cover;
      padding: 0;
   }
-  
-  // .map iframe {
-  //    width: 50%;
-  //    height: 50%;
-  // }
-
-  
 
 /*Responsive*/
 
@@ -255,12 +228,6 @@ body{
      
         display:flex;
         flex-direction: column;
-    //     grid-template-columns: 1fr;
-    //     grid-template-rows: auto;
-    //     grid-template-areas: 
-    //         "form"
-    //         "info"
-    //         "map";
      }
   
     .map {
@@ -281,7 +248,7 @@ body{
         padding: 30px;
     }
   
-    .map {
+    .img {
         max-height: 30px;
         padding: 0;
         background: url('../../media/contact.webp') no-repeat center/cover;
