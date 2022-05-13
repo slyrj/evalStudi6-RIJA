@@ -2,10 +2,11 @@ import React from 'react';
 
 const PrestHead = () => {
   return (
+    <>
     <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    
       <link rel="shortcut icon" href="./media/favicon.ico" />
       <link
         rel="stylesheet"
@@ -17,12 +18,13 @@ const PrestHead = () => {
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous"
       />
-      <title>Chartles Cantin - Prestations</title>
+        <title>Chartles Cantin - Prestations</title>
       <meta
         name="description"
         content="Page de présrations du site web de Charles Cantin - Photographe"
       />
     </head>
+    </>
   );
 };
 

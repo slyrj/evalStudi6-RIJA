@@ -1,0 +1,28 @@
+@import './settings';
+@import './pages/home';
+@import './pages/galerie';
+@import './components/navigation';
+@import './components/footer';
+@import './pages/contact';
+@import './pages/prestation';
+@import './pages/notFound';
+@import './pages/mention';
+
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ //margin-right:1px;
+  }
+    body {
+    display:block;
+    //margin: 1rem auto;
+    margin:0;
+    padding:0;
+
+    font-family: $font-1;
+    $color-1: #47555E ;
+ 
+   
+  }

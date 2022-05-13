@@ -5,7 +5,7 @@ const ContactHead = () => {
     <head>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+   
       <link rel="shortcut icon" href="./media/favicon.ico" />
       <link
         rel="stylesheet"
@@ -17,7 +17,7 @@ const ContactHead = () => {
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous"
       />
-      <title>Chartles Cantin - Page Contact</title>
+         <title>Chartles Cantin - Page Contact</title>
       <meta
         name="description"
         content="Page de contact du site web de Charles Cantin - Photographe"

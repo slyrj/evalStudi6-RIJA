@@ -3,19 +3,19 @@ import {NavLink} from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import PrestHead from '../components/PrestHead';
 import Footer from '../components/Footer';
- import Prestations from '../data/Prestations';
+import Prestations from '../data/Prestations';
 import Contact from '../pages/Contact';
 
 const Prestation = () => {
-  const [myPrestation, setMyPrestation] = useState(Prestations);
+  const [myPrest, setMyPrest] = useState(Prestations);
 
   return (
   <>
-  <PrestHead />
-  <Navigation />
-  <div className="pres">
+    <PrestHead />
+    <Navigation />
+    <div className="pres">
 
-{myPrestatin.map((values) => {
+    {myPrest.map((values) => {
           return (
                 <div className="pres__card alt" key={values.id}>
                     <div className="meta">
@@ -29,14 +29,13 @@ const Prestation = () => {
                         <NavLink exact to="/contact"> 
                         <p className="read-more">En Savoir plus..</p>
                         </NavLink>
-                        
                         </div>
                 </div>
               );
-})}
+            })}
      </div>                   
   <Footer />
-</>
+ </>
   );
 };
 

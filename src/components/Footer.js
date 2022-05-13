@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -14,7 +14,6 @@ const Footer = () => {
             <i className="fab fa-facebook"></i>
           </a>
         </li>
-
         <li>
           <a
             href="https://www.instagram.com"
@@ -24,7 +23,6 @@ const Footer = () => {
             <i className="fab fa-instagram"></i>
           </a>
         </li>
-
         <li>
           <a
             href="https://www.twitter.com"
@@ -40,8 +38,8 @@ const Footer = () => {
         <p> © Tous droits réservés - Charles Cantin </p>
       </span>
       <span className="signature">
-        <NavLink exact to="/mentions-legales">
-          <p className="legacy">Mentions légales</p>
+        <NavLink exact to="/mentions-legales"> 
+        <p className="legacy">Mentions légales</p>
         </NavLink>
       </span>
     </div>

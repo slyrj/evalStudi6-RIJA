@@ -4,11 +4,11 @@ main {
     .row {
 
         .col-md-2{
+
             margin-top:20px;
-            
             .btn {
-              color:#4FEDD2;
-              background-color: #8FB4CB;
+                color:#4FEDD2;
+                background-color: #8FB4CB;
               margin-left:35px;
               margin-top:20px;
               width:140px;
@@ -16,7 +16,6 @@ main {
           }
 
           .col-md-10 {
-
               .row {
              
                   .col-md-4 {
@@ -25,13 +24,14 @@ main {
                  
                         text-align: center;
                           .card-img-top{
+                          
                             margin-top:30px;
                             margin-bottom:30px;
+                           
                             width:350px;
                             height:250px;
                           object-fit: contain;
                           }
-
                        .card-text , p {
                          color:#fff;
                          text-align: center;

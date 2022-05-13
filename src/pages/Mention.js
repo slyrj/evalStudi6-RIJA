@@ -13,10 +13,7 @@ const Mention = () => {
        <h3>Mentions légales</h3>
             <p> 
             Conditions Générales d'Utilisation
-Les présentes conditions générales d'utilisation (dites « CGU ») ont pour objet l'encadrement juridique des modalités de mise à disposition du site et des services par Carole J. Photographie et de définir les conditions d’accès et d’utilisation des services par « l'Utilisateur ».
-
- 
-
+            Les présentes conditions générales d'utilisation (dites « CGU ») ont pour objet l'encadrement juridique des modalités de mise à disposition du site et des services par Carole J. Photographie et de définir les conditions d’accès et d’utilisation des services par « l'Utilisateur ».
 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 
  

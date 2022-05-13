@@ -3,6 +3,7 @@
     background-color: $color-1;
     height:160px;
    
+  
     ul {
       display: flex;
 
@@ -17,8 +18,8 @@
         padding: .5rem 0.8rem;
         transition: .3s;
         cursor: pointer;
-        margin-right:20px;
-         margin-top:20px;
+   margin-right:20px;
+   margin-top:20px;
    
       
 
@@ -39,10 +40,10 @@
     .signature {
         color:$color-2;
         display:flex;
-        margin-top: 2rem;
-        justify-content:center;
-        letter-spacing: 0.1rem;
-        font-size: 1.4rem;
+      margin-top: 2rem;
+   justify-content:center;
+      letter-spacing: 0.1rem;
+      font-size: 1.4rem;
    
 
       a, a:visited {
