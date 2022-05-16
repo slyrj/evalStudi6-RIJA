@@ -7,7 +7,10 @@ const Galerie = () => {
 
     const [picture,setPicture] = useState([]);
 
-    const url = ' https://env-2604330.hidora.com/photos';
+    const url = ' https://env-2604330.hidora.com/images';
+
+
+
     useEffect(() => {
       const fetchData = async () => {
         const resp = await fetch(url);
@@ -24,7 +27,7 @@ const Galerie = () => {
   
 // fonction filtre avec onClick    
 function filterResult(categorie) {
-  const url = `https://env-2604330.hidora.com/photos?categorie_eq=${categorie}`;
+  const url = `https://env-2604330.hidora.com/images?categorie_eq=${categorie}`;
   console.log(url);
 
   const fetchData = async () => {
@@ -73,7 +76,7 @@ function filterResult(categorie) {
                             return ( 
                              <div className="col-md-4 mb-4" > 
                                 <div className="card mb-4 =" key={result.id}>
-                                <img src={result.img_url} className="card-img-top " alt={result.category}/> 
+                                <img src={`https://env-2604330.hidora.com${result.img.url}`} className="card-img-top " alt={result.categorie}/> 
                                 </div>
                             </div> 
                               );
