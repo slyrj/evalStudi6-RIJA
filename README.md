@@ -105,6 +105,5 @@ Lire les messages
 * Se connecter sur mail.com  = > [ici](https://www.mail.com/) 
 
   - id: mitiatravel@mail.com
-  - mdp: @dm1nM1t1@Tr@ve 	
-
+  - mdp: @dm1nM1t1@Tr@vel 
 ![alt text](https://github.com/slyrj/evalStudi6-RIJA/blob/main/img_md/md13.png)
