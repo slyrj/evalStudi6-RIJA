@@ -4,7 +4,7 @@ function form() {
   return (
       <div className="contact form">
           <h3>Me Contacter</h3>
-          <form  name="contact" method="post" data-netlify="true" onSubmit="submit">
+          <form  name="contact" method="POST" data-netlify="true" onSubmit="submit">
             {/* champ hidden netlify */}
           <input type="hidden" name="form-name" value="contact" />
 
@@ -34,7 +34,7 @@ function form() {
                   <div className="row100">
                       <div className="inputBox">
                          <span for="message">Message</span>
-                         <textarea name="message" placeholder="Laissez votre message ici.." name="" id="" cols="30" rows="10"></textarea>
+                         <textarea name="message" placeholder="Laissez votre message ici.."  cols="30" rows="10"></textarea>
                       </div>
                    </div>   
 
