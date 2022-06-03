@@ -99,6 +99,11 @@ ou cliquez [> ici <](https://env-2604330.hidora.com/admin/auth/login) !
 
 
 
+
+* Effectuer les mêmes procédures  pour ajouter (ou supprimer) une nouvelle prestation (page <prestations>), avec le titre, le prix, la description et une image 
+![alt text](https://github.com/slyrj/evalStudi6-RIJA/blob/main/img_md/md14.png)
+
+
 Lire les messages
 =================
 

@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import PrestHead from '../components/PrestHead';
 import Footer from '../components/Footer';
-//import Prestations from '../data/Prestations';
+//import Prestations from '../data/Prestations';  si en dûr//  
 import Contact from '../pages/Contact';
 
 const Prestation = () => {

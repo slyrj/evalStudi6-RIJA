@@ -22,7 +22,6 @@ const GalerieHead = () => {
         name="description"
         content="Page des galeries  du site web de Charles Cantin - Photographe"
       />
-
     </head>
   );
 };
