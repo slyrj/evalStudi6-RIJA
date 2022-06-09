@@ -43,7 +43,7 @@ Déploiement (Netlify)
 
 ![alt text](https://github.com/slyrj/evalStudi6-RIJA/blob/main/img_md/md2.png)
  
-* ou importer dire'ctement le projet de votre dépot git 
+* ou importer directement le projet de votre dépot git 
 
 ![alt text](https://github.com/slyrj/evalStudi6-RIJA/blob/main/img_md/md3.png)
 
@@ -112,3 +112,4 @@ Lire les messages
   - id: mitiatravel@mail.com
   - mdp: @dm1nM1t1@Tr@ve1
 ![alt text](https://github.com/slyrj/evalStudi6-RIJA/blob/main/img_md/md13.png)
+it a
